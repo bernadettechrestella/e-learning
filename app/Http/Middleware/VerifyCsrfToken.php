@@ -18,6 +18,7 @@ class VerifyCsrfToken extends Middleware
         '/hapusAdmin',
         '/listAdmin',
         '/tambahKonten',
-        '/ubahKonten'
+        '/ubahKonten',
+        '/hapusKonten',
     ];
 }

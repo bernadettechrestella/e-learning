@@ -11,3 +11,4 @@ Route::post('/listAdmin', [Admin::class, 'listAdmin']);
 
 Route::post('/tambahKonten', [Konten::class, 'tambahKonten']);
 Route::post('/ubahKonten', [Konten::class, 'ubahKonten']);
+Route::post('/hapusKonten', [Konten::class, 'hapusKonten']);
