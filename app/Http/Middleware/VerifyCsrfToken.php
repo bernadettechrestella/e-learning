@@ -20,5 +20,6 @@ class VerifyCsrfToken extends Middleware
         '/tambahKonten',
         '/ubahKonten',
         '/hapusKonten',
+        '/listKonten',
     ];
 }
